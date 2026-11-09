@@ -13,17 +13,17 @@
 
         <nav>
             <ul>
-                <li><a>Dashboard</a></li>
-                <li><a>Produção</a></li>
-                <li><a>Clientes</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Agenda</a></li>
-                <li><a>Edição & Pós-produção</a></li>
-                <li><a>Softwares</a></li>
-                <li><a>Equipamentos</a></li>
-                <li><a>Financeiro</a></li>
-                <li><a>Entregas</a></li>
-                <li><a>Configurações</a></li>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="producao.html">Produção</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="edicao.html">Edição & Pós-produção</a></li>
+                <li><a href="softwares.html">Softwares</a></li>
+                <li><a href="equipamentos.html">Equipamentos</a></li>
+                <li><a href="financeiro.html">Financeiro</a></li>
+                <li><a href="entregas.html">Entregas</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
 
             </ul>
         </nav>
@@ -74,8 +74,8 @@
             <article class="card-projeto">
 
                 <div class="imagem-projeto">
-                    <img src="../img/Entrada do Residencial Solaris ao Entardecer.png" alt="" width="300" height="200">
-                </div>
+                    <img src="../img/Entrada do Residencial Solaris ao Entardecer.png"
+                        alt="Entrada do Residencial Solaris ao entardecer" width="300" height="200">
                 </div>
 
                 <div class="informacoes-projeto">
@@ -92,12 +92,12 @@
             <h2>Agenda de Gravações</h2>
             <article class="card-gravacoes">
                 <h3>Casamento Juliana & Marcos</h3>
-                <time datetime="10/11/2026">10/11/2026</time>
+                <time datetime="2026-11-10">10/11/2026</time>
                 <time datetime="16:00">16h</time>
-                <p>joão Pessoa - PB</p>
+                <p>João Pessoa - PB</p>
             </article>
 
-            <article class="card-otica-maranata">
+            <article class="card-gravacoes">
                 <h3>Ótica Maranata</h3>
                 <time datetime="2026-11-12">12/11/2026</time>
                 <time datetime="14:00">14h</time>
@@ -121,7 +121,7 @@
 
             </article>
 
-            <article>
+            <article class="card-softwares">
 
                 <div>
                     <img src="../img/davinci.png" alt="Logo do DaVinci Resolve" width="100" height="100">
@@ -135,7 +135,7 @@
 
             </article>
 
-            <article>
+            <article class="card-softwares">
                 <div>
                     <img src="../img/after-effects.png" alt="Logo do Adobe After Effects" width="100" height="100">
                 </div>
@@ -146,10 +146,10 @@
                     <p><strong>Em uso</strong></p>
 
                 </div>
-                </div>
+
             </article>
 
-            <article>
+            <article class="card-softwares">
                 <div>
                     <img src="../img/photoshop.png" alt="Logo do Adobe Photoshop" width="100" height="100">
                 </div>
@@ -167,7 +167,7 @@
             <h2>Central de Equipamentos</h2>
             <article class="card-equipamentos">
                 <div>
-                    <img src="../img/Sony FX30.png" alt="Imagem de uma câmera de vídeo" width="100" height="100">
+                    <img src="../img/Sony FX30.png" alt="Câmera Sony FX30" width="100" height="100">
                 </div>
 
                 <div>
@@ -177,10 +177,10 @@
                 </div>
             </article>
 
-            <article>
+            <article class="card-equipamentos">
 
                 <div>
-                    <img src="../img/drone FPV.png" alt="Imagem de um drone FPV" width="200" height="200">
+                    <img src="../img/drone FPV.png" alt="Drone FPV" width="200" height="200">
                 </div>
 
                 <div>
@@ -191,23 +191,92 @@
 
             </article>
 
-            <article>
+            <article class="card-equipamentos">
                 <div>
-                    <img src="../img/Sony A6600.png" alt="Imagem de uma câmera Sony A6600" width="200" height="200">
+                    <img src="../img/Sony A6600.png" alt="Câmera Sony A6600" width="200" height="200">
                 </div>
 
                 <div>
                     <h3>Sony A6600</h3>
-                    <p>Câmera mirrorless utilizada para gravações em ambientes extremos, esportes radicais e aventuras.</p>
+                    <p>Câmera mirrorless utilizada para gravações em ambientes extremos, esportes radicais e aventuras.
+                    </p>
                     <p><strong>Em uso</strong></p>
                 </div>
             </article>
+
         </section>
 
+        <section>
+
+            <h2>Produção</h2>
+            <article class="card-producao">
+                <h3>Produção Comercial – Ótica Maranata</h3>
+                <p><strong>Cliente:</strong> Ótica Maranata</p>
+                <p><strong>Tipo:</strong> Vídeo comercial</p>
+                <p><strong>Status:</strong> Em edição</p>
+
+                <progress value="70" max="100"></progress>
+                <p>70% concluído</p>
+
+            </article>
+        </section>
+
+        <section>
+
+            <h2>Edição e Pós-produção</h2>
+
+            <article class="card-edicao">
+
+                <h3>Casamento – Edição de Vídeo</h3>
+                <p><strong>Cliente:</strong> Juliana & Marcos</p>
+                <p><strong>Tipo:</strong> Edição de vídeo de casamento</p>
+                <p><strong>Status:</strong> Em edição</p>
+
+                <progress value="40" max="100"></progress>
+                <p>40% concluído</p>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Entregas Pendentes</h2>
+
+            <article class="card-entrega">
+
+                <h3>Vídeo Comercial – Ótica Maranata</h3>
+                <p><strong>Cliente:</strong> Ótica Maranata</p>
+                <p><strong>Tipo:</strong> Vídeo comercial</p>
+                <p><strong>Status:</strong> Aguardando aprovação do cliente</p>
+                <time datetime="2026-11-13">13/11/2026</time>
+
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Financeiro</h2>
+
+            <article class="card-financeiro">
+                <h3>Faturamento do mês</h3>
+                <p><strong>R$ 12.400,00</strong></p>
+            </article>
+
+            <article class="card-financeiro">
+                <h3>Valores a receber</h3>
+                <p><strong>R$ 3.500,00</strong></p>
+            </article>
+
+        </section>
 
     </main>
 
-</body>
+    <footer>
+        <p>© 2026 ROX PRODUCTION. Todos os direitos reservados.</p>
+    </footer>
 
+</body>
 
 </html>
